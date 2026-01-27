@@ -74,7 +74,7 @@ public class TC1_SLHomePageVerifyTitle extends BaseClass
 	}
 	
 	@AfterClass
-	public void closeBrowser()
+	public void tearDown()
 	{
 		driver.quit();
 	}
